@@ -1,0 +1,32 @@
+package practice_session;
+
+public class super_this_contd {
+
+	int a,b,c;
+	public int child() {
+		a=1;
+		b=2;
+		c=a+b;
+		return c;
+	}
+	public void disp()
+	{
+		int i = child();
+		
+	
+	public static void main(String[] args) {
+		super_this_contd c1 = new super_this_contd();
+		c1.
+		
+		
+
+	}
+
+}
+
+
+}
+
+	}
+
+}

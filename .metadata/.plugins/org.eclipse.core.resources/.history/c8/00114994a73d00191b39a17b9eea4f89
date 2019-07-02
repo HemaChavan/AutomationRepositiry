@@ -1,0 +1,23 @@
+package test;
+
+public class stringmethods {
+	public static void main(String args[])
+	{
+		String s1 = "My name is Hema ";
+		int i=s1.length();
+		System.out.println("string length is " + i);
+		char s2 = s1.charAt(1);
+		System.out.println("char at index 4 is " + s2);
+		String s3 =s1.substring(8);
+		System.out.println("substring is:" + s3);
+	/*	System.out.println(s1.Char());
+		System.outprintln(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		*/
+		
+	}
+
+}

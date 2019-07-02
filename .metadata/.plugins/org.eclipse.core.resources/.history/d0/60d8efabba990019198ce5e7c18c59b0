@@ -1,0 +1,11 @@
+package testScripts;
+
+public class TC_Login {
+
+	@Test
+	public  void script() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

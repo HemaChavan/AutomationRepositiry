@@ -1,0 +1,28 @@
+package practice_session;
+
+public class super_this {
+	int x ,y,z;
+	public void parent_method() {
+		x=10;
+		y=12;
+		z=x+y;
+		
+		System.out.println("value of z = "+z);
+	}
+}
+public class child{
+	int a,b,c;
+	public int child() {
+		a=1;
+		b=2;
+		c=a+b;
+		return c;
+	}
+	public void child_
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

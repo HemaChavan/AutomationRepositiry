@@ -1,0 +1,10 @@
+package test;
+
+public class stringmethods {
+	public static void main(string args[])
+	{
+		String s1 = "My name is abc";
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package test;
+
+public class foreachloop {
+
+	public class ForEachLoop_func()
+	{
+		int arr[] = {12,23,44,56,77};
+		for(int i:arr) {
+			System.out.println(i);
+		}
+	}
+	
+	
+}

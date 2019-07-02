@@ -1,0 +1,10 @@
+package test;
+
+public class bytedatatype {
+	
+	
+	public static void main(String args[]) {
+		
+	}
+
+}

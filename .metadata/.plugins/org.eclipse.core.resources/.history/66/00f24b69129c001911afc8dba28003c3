@@ -1,0 +1,13 @@
+
+@tag
+Feature: User wants to test  login fetaure with multiple credentials
+  
+  Scenario Outline: To test login with invalid credentials
+    Given Application page is up and running
+    When I enter <username> and <password> on login page
+    Then the Error message should be displayed
+
+    Examples: 
+      | username  | password |
+      | name1 |     5 |
+      | name2 |     7 |

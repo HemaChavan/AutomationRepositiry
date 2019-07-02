@@ -1,0 +1,16 @@
+package test;
+
+import java.util.Scanner;
+
+public class ifelse {
+	
+	public void evenoddfunc() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter a no");
+		int abc = sc.nextInt();
+		
+		
+	}
+
+}

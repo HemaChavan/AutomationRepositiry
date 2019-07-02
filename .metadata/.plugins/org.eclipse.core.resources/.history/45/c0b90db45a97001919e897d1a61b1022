@@ -1,0 +1,11 @@
+package SamplePackage;
+
+public class TestClass {
+	
+	@test
+	public void login() {
+		System.out.println("Login test case");
+
+	}
+
+}

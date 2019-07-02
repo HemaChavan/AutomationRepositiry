@@ -1,0 +1,9 @@
+package basicAnnotations;
+
+public class TestNgClass {
+
+	public void test1() {
+		System.out.println("Testing first method");
+	}
+
+}

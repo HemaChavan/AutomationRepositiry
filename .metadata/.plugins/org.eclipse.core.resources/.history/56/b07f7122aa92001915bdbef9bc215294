@@ -1,0 +1,23 @@
+package mousehover;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class MouseHover1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\Techbodhi\\Drivers\\chromedriver.exe");
+		ChromeDriver dr = new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get("https://www.flipkart.com/");
+		dr.findElement(By.xpath("//button[@class='_2AkmmA _29YdH8']")).click();
+		
+		Actions act = new Actions(dr);
+		act.moveToElement(dr.findElement(By.xpath("//span[text()='Men']"))).build().perform();
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package pages;
+
+public class HomePage {
+	
+	WebDriver dr;
+	
+	public Homepage(WebDriver dr) {
+		this.dr =dr;
+	}
+
+}

@@ -1,0 +1,15 @@
+package test;
+
+import java.util.Scanner;
+
+public class ifelse {
+	public void evenoddfunc() {
+		
+		canner sc = new Scanner(System.in);
+		System.out.println("Please enter a no");
+		int abc = sc.nextInt();
+		
+		
+	}
+
+}

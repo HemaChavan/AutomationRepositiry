@@ -1,0 +1,27 @@
+package HandleIFrames;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Testing {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\Techbodhi\\Drivers\\chromedriver.exe");
+		ChromeDriver dr = new ChromeDriver();
+		dr.manage().window().maximize();
+		dr.get("https://paytm.com/");
+		Thread.sleep(2000);
+		dr.findElement(By.xpath("//div[text()='Log In/Sign Up']")).click();
+		//Thread.sleep(1000);
+	//	dr.switchTo().frame(0);
+		dr.switchTo().frame(arg0)
+		Thread.sleep(1000);
+		dr.findElement(By.xpath("//span[text()='Login/Signup with mobile number and password']")).click();
+
+	}
+
+}
+
+//Iframes can be identified with dr.switchTo().frame(0);
+

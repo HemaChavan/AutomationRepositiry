@@ -1,0 +1,16 @@
+package test;
+
+public class Constructor {
+
+	
+	public Constructor() {
+		
+			System.out.println("hello");
+		
+		}
+	public static void main(String args[])
+	{
+		
+	}
+	
+}

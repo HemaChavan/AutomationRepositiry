@@ -1,0 +1,26 @@
+package test;
+import java. util. Scanner;
+
+public class booleandatatype {
+
+	public static void main(String args[]) {
+		
+		//String b ;
+		Scanner in = new Scanner(System. in);
+		System.out.println("Input the String:");
+		bollean b = in.nextLine(); 
+		//boolean b = scan.nextLine();
+		if (b == true)
+		{
+			System.out.println("true value");
+		}
+		/*else
+		{
+			System.out.println("false");
+		}*/
+	}
+
+	
+	
+	
+}

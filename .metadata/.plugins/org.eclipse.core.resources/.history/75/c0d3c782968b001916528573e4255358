@@ -1,0 +1,21 @@
+package basicAnnotations;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+
+public class TestNgClass {
+
+	@Test	
+	public void test1() {
+		System.out.println("Testing first method");
+	}
+	@AfterClass 	
+	public void test2() {
+		System.out.println("Testing first method");
+	}
+	@AfterTest 	
+	public void test2() {
+		System.out.println("Testing first method");
+	}
+
+}

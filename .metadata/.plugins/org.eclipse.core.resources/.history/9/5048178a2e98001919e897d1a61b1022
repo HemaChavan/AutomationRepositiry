@@ -1,0 +1,6 @@
+//copy all the jar files in jar files folder from location D:\Techbodhi\Selenium Software\poi-3.17-20190428T055312Z-001\poi-3.17
+from libs ; ooxml-lib ;and poi-3017 - copy all jar files
+
+/2)right click on framework folder - > go to build path -> configure build path ->add jars->add all the jar files internally from the project folder name
+
+3) 

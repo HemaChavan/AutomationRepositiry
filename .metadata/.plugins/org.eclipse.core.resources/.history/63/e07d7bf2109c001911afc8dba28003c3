@@ -1,0 +1,19 @@
+package StepDefinition;
+public class Steps{
+
+@Given("^Application is up and running$")
+public void application_is_up_and_running()  {
+    
+}
+
+@When("^I enter valid credentials$")
+public void i_enter_valid_credentials()  {
+    
+}
+
+@Then("^I should be login succesfully$")
+public void i_should_be_login_succesfully()  {
+    
+}
+
+}

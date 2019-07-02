@@ -1,0 +1,20 @@
+-download selenium server standalone driver 
+-download chromedriver_win32
+download from selenium hq.org  compatible versions
+
+
+
+//interview questions
+-class a ; class b same; function in both the classes , function name is login 
+in both the classes 2 arguments - username and password 
+in class a access modifier is public 
+in class b the acess modifier is private 
+class b extends class a 
+3rd class - class c 
+creating object of class a and refernce of class b
+
+compile time error
+
+vice versa 
+it can use all the methods of class a and class b 
+

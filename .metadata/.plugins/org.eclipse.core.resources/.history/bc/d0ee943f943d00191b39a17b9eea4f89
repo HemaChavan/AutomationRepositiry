@@ -1,0 +1,20 @@
+package test;
+
+import java.util.Scanner;
+
+public class ifelse {
+	
+	int num1;
+	
+	public void evenoddfunc() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter a no");
+		int abc = sc.nextInt();
+		num1 =abc; 
+	}
+	public void displ() {
+		
+	}
+
+}

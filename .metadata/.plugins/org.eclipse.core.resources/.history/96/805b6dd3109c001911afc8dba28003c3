@@ -1,0 +1,21 @@
+package StepDefinition;
+
+@Given("^Application is up and running$")
+public void application_is_up_and_running() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I enter valid credentials$")
+public void i_enter_valid_credentials() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I should be login succesfully$")
+public void i_should_be_login_succesfully() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+

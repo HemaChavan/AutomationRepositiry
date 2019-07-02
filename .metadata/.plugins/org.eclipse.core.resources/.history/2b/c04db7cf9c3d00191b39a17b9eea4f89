@@ -1,0 +1,16 @@
+package test;
+
+public class forloopprog {
+
+	public void for_test_prog()
+	{
+		int i ;
+		for(i=10;i<=0;i++)
+		{
+			System.out.println(i);
+		}
+	}
+	public void static main(String args[])
+	
+	
+}

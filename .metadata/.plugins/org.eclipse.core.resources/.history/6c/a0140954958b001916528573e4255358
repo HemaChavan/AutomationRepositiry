@@ -1,0 +1,13 @@
+package basicAnnotations;
+
+import org.testng.annotations.Test;
+
+public class TestNgClass {
+
+	@Test
+	@test
+	public void test1() {
+		System.out.println("Testing first method");
+	}
+
+}

@@ -1,0 +1,34 @@
+Collections
+List (I)    Set (I)  == Interfaces
+Arraylist Linkedlist vector  === classes
+
+Set (I)
+Hashset  LinkedHashset  Treeset  === classes 
+
+Collections are used for dynamic data - grow / shrinking
+object is a superclass of all the classes where the muliple datatypes in array can be stored 
+
+public static void main(String[] args)
+{int a =10;
+String name = "Anand";
+boolean flag = true;
+
+object[] str = new Object[3];
+str[0]=a;
+str[1]=name;
+str[2]=flag;
+}
+
+Difference between List and Set
+List has duplicate values
+Set has unique values
+
+Array list is used for data extraction ; array list 
+Linked list is used for adding and removing of data ; doubly data structures 
+Above 2 are not threadsafe and non synchronised 
+Vector is threadsafe / synchronised  ; legacy class 
+
+== difference between arraylist and vector 
+in vector it grows by 100% 
+arraylist grows by 50% 
+more reliable is arraylist

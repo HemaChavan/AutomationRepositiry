@@ -1,0 +1,20 @@
+package excelfilemanipulation;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class readexcel {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		FileInputStream file = new FileInputStream("D:\\Techbodhi\\test_excel.xls");
+		
+		HSSFWorkbook wb = new HSSFWorkbook(file);
+		
+		FileOutputStream file1 = new FileOutputStream("D:\\Techbodhi\\test_excel.xls");
+		
+
+	}
+
+}

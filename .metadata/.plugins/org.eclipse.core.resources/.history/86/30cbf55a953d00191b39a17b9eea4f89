@@ -1,0 +1,51 @@
+package test;
+
+import java.util.Scanner;
+
+public class ifelse {
+	
+	int num1;
+	int check;
+	
+	public void evenoddfunc() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter a no");
+		int abc = sc.nextInt();
+		num1 =abc; 
+	}
+	public void checkfunc() {
+		int c=0
+		if(num1/2 == 0)
+		{
+			c=1;
+		}
+		else
+		{
+			c=0;
+		}
+		check = c;
+	}
+	
+	public void displ() {
+		if(check == 1) {
+			System.out.println("Number entered is an Even"+ num1);
+		}
+		else
+		{
+			System.out.println("Number entered is an Odd"+ num1);
+		}
+			
+		
+	}
+		public static void main(String args[])
+		{
+			
+			ifelse obj = new ifelse();
+			obj.evenoddfunc();
+			obj.checkfunc();
+			obj.displ();
+		}
+	
+
+}

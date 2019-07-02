@@ -1,0 +1,28 @@
+package practice_session;
+
+class super_parent{
+	int p =10;
+	super_parent() {
+		System.out.println("parent lskjfkjs");
+	}
+	
+}
+
+public class super_test extends super_parent{
+	int p=20;
+	//super.child();
+	super_test() {
+		super();
+		System.out.println("child");
+		/*super.child();
+		System.out.println("value of p in child is "+p);
+		System.out.println("value of p in parent is "+super.p);*/
+	}	
+	public static void main(String[] args) {
+	super_test obj = new super_test();
+	//obj.child();
+	//super.parent();
+		
+	}
+
+}

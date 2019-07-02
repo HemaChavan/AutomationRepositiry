@@ -1,0 +1,20 @@
+package test;
+
+public class whileprog {
+	
+	public void whileprg_func() {
+		int i = 3;
+		while(i>=1)
+		{
+			System.out.println("values of i are" + i);
+			i--;
+		}
+		
+	}
+	public static void main(String args[]) {
+	whileprog obj = new whileprog();
+	obj.whileprg_func();
+	}
+	
+
+}

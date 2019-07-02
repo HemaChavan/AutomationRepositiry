@@ -1,0 +1,13 @@
+package test;
+
+public class StringsProg {
+	public static void main(String args[])
+	{
+		String s = "tech";
+//		String s = s.concat("kumar");
+		System.out.println(s.concat("bodhi"));
+		//System.out.println(s1); 
+		
+	}
+
+}

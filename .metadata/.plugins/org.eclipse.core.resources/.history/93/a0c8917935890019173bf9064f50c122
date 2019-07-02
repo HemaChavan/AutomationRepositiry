@@ -1,0 +1,26 @@
+package excelfilemanipulation;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
+public class readexcel {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		FileInputStream file = new FileInputStream("D:\\Techbodhi\\test_excel.xls");
+		
+		HSSFWorkbook wb = new HSSFWorkbook(file);
+		wb.getSheet("Sheet1");
+		
+		
+		FileOutputStream file1 = new FileOutputStream("D:\\Techbodhi\\test_excel.xls");
+		
+
+	}
+
+}

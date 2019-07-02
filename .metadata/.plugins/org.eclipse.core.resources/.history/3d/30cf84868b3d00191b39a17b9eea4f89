@@ -1,0 +1,11 @@
+package test;
+
+public class Constructor {
+
+	
+	public int display() {
+		System.out.println("hello");
+	}
+	
+	
+}

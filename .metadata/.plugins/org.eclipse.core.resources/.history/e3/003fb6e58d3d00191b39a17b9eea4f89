@@ -1,0 +1,28 @@
+package test;
+
+public class Constructor {
+
+	int sum ;
+	String name; 
+	public Constructor() {
+		
+			System.out.println("hello");
+		
+		}
+	public int Constructor(int a ,int b ) {
+		
+		sum = a+b;
+		return sum;
+	
+	}
+	public void disp() {
+		System.out.println("sum value is :" + sum);
+	}
+	public static void main(String args[])
+	{
+		Constructor constructor = new Constructor();
+	//	Constructor constructor = new Constructor(int c ,int d);
+		constructor.disp();
+	}
+	
+}

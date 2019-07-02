@@ -1,0 +1,13 @@
+package test;
+
+public class Constructor {
+
+	
+	public void display() {
+		System.out.println("hello");
+		//int b= 13;
+		//return b;
+	}
+	
+	
+}

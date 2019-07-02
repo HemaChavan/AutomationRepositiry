@@ -1,0 +1,19 @@
+package testScripts;
+
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import libraries.ApplicationLibrary;
+
+public class TC_Login {
+
+	@Test
+	public  void script() {
+		ApplicationLibrary lib = new ApplicationLibrary();
+		WebDriver dr = lib.launchBrowser();
+		assertTrue(dr!=null);
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package test;
+
+public class Constructor {
+
+	
+	public Constructor() {
+		
+			System.out.println("hello");
+		
+		}
+	public Constructor(int a ,int b ) {
+		
+		System.out.println("hello");
+	
+	}
+	public static void main(String args[])
+	{
+		Constructor constructor = new Constructor();
+	}
+	
+}

@@ -1,0 +1,20 @@
+package test;
+
+public class stringmethods {
+	public static void main(String args[])
+	{
+		String s1 = "My name is Hema ";
+		int i=s1.length();
+		System.out.println("string length is " + i);
+		Char s2 = s1.charAt(4);
+	/*	System.out.println(s1.Char());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		System.out.println(s1.length());
+		*/
+		
+	}
+
+}
